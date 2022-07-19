@@ -1,0 +1,1382 @@
+body {
+    margin: 0;
+    font-family: "Arial";
+}
+
+.header-top-line {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 8px;
+    background-color: #f8e27b;
+}
+
+.header-top-line::before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    width: 15px;
+    height: 15px;
+    background-color: #f8e27b;
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.wrapper {
+    padding: 0 280px;
+}
+
+.header-line {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+
+.header-line-1 {
+    display: flex;
+    margin-right: 58px;
+}
+
+.create,
+.sell {
+    position: relative;
+}
+
+.create a,
+.sell a {
+    margin-right: 8px;
+    padding: 4px 10px 4px 30px;
+    background-color: #fae851;
+    border-radius: 13px;
+    transition: 1s ease all;
+    font-size: 14px;
+    color: #4e443b;
+    font-weight: bold;
+    font-family: "Arial";
+    text-decoration: none;
+}
+
+.create::before {
+    content: url(/img/Layer\ 1149.png);
+    position: absolute;
+    left: 10px;
+}
+
+.sell::before {
+    content: url(/img/Layer\ 1150.png);
+    position: absolute;
+    left: 10px;
+}
+
+.create a:hover,
+.sell a:hover {
+    background-color: #0193e9;
+}
+
+.header-line-2 {
+    display: flex;
+}
+
+.bk {
+    margin: 0 6px;
+    padding: 7px 10px;
+    border-radius: 50%;
+    border: 1px solid #0193e9;
+    transition: 1s ease all;
+}
+
+.bk:hover,
+.ok:hover,
+.facebook:hover {
+    border: 1px solid #fbee67;
+}
+
+.bk img,
+.ok img,
+.facebook img {
+    height: 15px;
+}
+
+
+.ok {
+    margin: 0 16px;
+    padding: 7px 12px;
+    border-radius: 50%;
+    border: 1px solid #0193e9;
+    transition: 1s ease all;
+}
+
+.facebook {
+    margin: 0 6px;
+    padding: 7px 13px;
+    border-radius: 50%;
+    border: 1px solid #0193e9;
+    transition: 1s ease all;
+}
+
+.header-line-3 {
+    display: flex;
+    align-items: center;
+}
+
+.skype a,
+.contact a,
+.email a {
+    margin-right: 20px;
+    font-size: 12px;
+    line-height: 22px;
+    text-decoration: underline;
+    color: #0087e4;
+    transition: 1s ease all;
+    padding-left: 25px;
+}
+
+.email a {
+    margin-right: 0;
+}
+
+.skype a:hover,
+.contact a:hover,
+.email a:hover {
+    color: #fae851;
+
+}
+
+.skype,
+.contact,
+.email {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.skype::before {
+    content: url(/img/Layer\ 1138.png);
+    position: absolute;
+    top: 4px;
+    left: 5px;
+    z-index: -1;
+}
+
+.contact::before {
+    content: url(/img/Layer\ 1115.png);
+    position: absolute;
+    top: 4px;
+    left: 5px;
+    z-index: -1;
+}
+
+
+.email::before {
+    content: url(/img/@.png);
+    position: absolute;
+    top: 4px;
+    left: 5px;
+    z-index: -1;
+}
+
+.header-line-top {
+    margin-left: -280px;
+    margin-right: -280px;
+
+}
+
+.header-info {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.contacts {
+    padding-bottom: 24px;
+}
+
+.contacts a {
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 18px;
+    color: #0087e4;
+    transition: 1s ease all;
+    border-bottom: 2px dotted #0087e4;
+}
+
+.contacts a:hover {
+    color: #ebc821;
+    border-bottom: 2px dotted #ebc821;
+}
+
+.telefon a {
+    border: none;
+    font-size: 16px;
+    line-height: 14px;
+    color: #676767;
+    font-weight: bold;
+    margin-left: 8px;
+    transition: 1s ease all;
+}
+
+.telefon a:hover {
+    color: #0087e4;
+    border: none;
+}
+
+.account {
+    display: flex;
+    align-items: center;
+}
+
+.account a {
+    font-size: 12px;
+    line-height: 18px;
+    text-decoration: underline;
+    color: #0087e4;
+    transition: 1s ease all;
+}
+
+.account a:hover {
+    color: #f4cf23;
+}
+
+.account p {
+    margin: 0 4px;
+    font-size: 12px;
+    line-height: 18px;
+    color: #676767;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo p:first-child {
+    font-size: 30px;
+    line-height: 64px;
+    color: #0193e9;
+    font-family: "Arial";
+    font-weight: bold;
+    margin: 0;
+}
+
+.logo p:last-child {
+    font-size: 31px;
+    line-height: 64px;
+    color: #f4cf23;
+    font-family: "Arial";
+    margin: 0;
+    font-weight: bold;
+}
+
+.blok-logo a {
+    text-decoration: none;
+}
+
+.blok-logo hr {
+    width: 56px;
+    height: 2px;
+    background-color: black;
+    margin: 0 auto;
+    margin-top: -10px;
+}
+
+.blok-logo p {
+    margin: 0;
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 4px;
+    line-height: 32px;
+    color: #322a2a;
+    text-transform: uppercase;
+}
+
+.my-basket,
+.my-wishes {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.my-basket::before{
+    content: url(/img/Shape\ 171\ copy\ 12.png);
+    position: absolute;
+    left: 0px;
+    top: -2px;
+    width: 20px;
+    height: 20px;
+    z-index: -1;
+}
+
+.my-basket {
+    margin-bottom: 24px;
+}
+
+.my-wishes::before{
+    content: url(/img/серце.png);
+    position: absolute;
+    left: 40px;
+    top: -2px;
+    z-index: -1;
+}
+
+.my-basket a,
+.my-wishes a {
+    font-size: 12px;
+    line-height: 14px;
+    text-decoration: underline;
+    color: #0193e9;
+    transition: 1s ease all;
+    padding-left: 25px;
+}
+
+.my-basket a:hover,
+.my-wishes a:hover {
+    color: #f4cf23;
+}
+
+.about-us {
+    margin-top: 40px;
+}
+
+.about-us ul {
+    display: flex;
+    list-style: none;
+    margin: 0 140px;
+    padding: 0;
+    justify-content: space-between;
+}
+
+.about-us a {
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 32px;
+    color: #322a2a;
+    font-style: italic;
+    font-family: "Georgia";
+    text-decoration: none;
+    transition: 1s ease all;
+}
+
+.about-us a:hover {
+    text-decoration: underline;
+    color: #0193e9;
+}
+
+.header-line-bottom {
+    display: block;
+    margin-left: -280px;
+    margin-right: -280px;
+    height: 2px;
+    background: #f8e27b;
+}
+
+
+
+.goods ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0 60px;
+}
+
+.goods a {
+    font-size: 14px;
+    line-height: 32px;
+    color: #322a2a;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: "Arial";
+    margin-top: 20px;
+    transition: 1s ease all;
+    padding-bottom: 8px;
+}
+
+.goods a:hover {
+    color: #0193e9;
+    border-bottom: 2px solid #0193e9;
+}
+
+.main-bg {
+    display: block;
+    background-image: url(/img/вишиванка.png);
+    height: 138px;
+    margin-left: -280px;
+    margin-right: -280px;
+}
+
+.main-content {
+    display: flex;
+    margin-top: -140px;
+}
+
+.family-0 {
+    margin-top: 20px;
+    background-color: #ffffff;
+}
+
+.family {
+    display: flex;
+    align-items: center;
+    width: 700px;
+    background-image: url(/img/18019_shutterstock_119858314.png);
+    background-repeat: no-repeat;
+    background-position: 293px 18px;
+    height: 320px;
+    border: 3px solid #f3cf23;
+    transition: .5s ease all;
+}
+
+.family:hover {
+    border: 3px solid #0193e9;
+}
+
+.arrow-left {
+    background-color: #fae851;
+    border-radius: 50%;
+    padding: 7px 15px 5px 10px;
+    margin: 0 12px;
+    transition: 1s ease all;
+}
+
+.arrow-right {
+    background-color: #fae851;
+    border-radius: 50%;
+    padding: 7px 10px 5px 15px;
+    margin: 0 -12px;
+    transition: 1s ease all;
+}
+
+.arrow-left:hover,
+.arrow-right:hover {
+    background: #fff6af;
+}
+
+h1 {
+    margin-top: 50px;
+    min-width: 300px;
+    font-size: 32px;
+    line-height: 32px;
+    color: #0193e9;
+    font-weight: bold;
+    font-family: "Arial";
+    margin-bottom: 16px;
+}
+
+.family-info {
+    margin: 0 280px 46px 21px;
+}
+
+.fa {
+    max-width: 217px;
+    font-size: 12px;
+    line-height: 18px;
+    color: #676767;
+    font-family: "Arial";
+    margin-bottom: 36px;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+}
+
+.price img {
+    margin-right: 5px;
+    width: 18px;
+    height: 22px;
+}
+
+.ttt {
+    margin: 0;
+    font-size: 22px;
+    line-height: 22px;
+    color: #2e353a;
+    font-weight: bold;
+    font-family: "Arial";
+}
+
+.family a {
+    display: block;
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 32px;
+    text-decoration: underline;
+    color: #0193e9;
+    font-style: italic;
+    font-family: "Georgia";
+    transition: 1s ease all;
+}
+
+.family a:hover {
+    color: #ebc821;
+}
+
+.order {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.order::after{
+    content: '-10%';
+    padding: 18px 10px;
+    border-radius: 50%;
+    margin-left: 30px;
+    background-color: #f5e13a;
+    font-size: 14px;
+    color: #0087e3;
+}
+
+.t-shirts-1,
+.t-shirts-2,
+.t-shirts-3 {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    border: 3px solid #0193e9;
+    height: 100px;
+    transition: 1s ease all;
+}
+
+.t-shirts-price p {
+    margin: 0;
+    margin-left: 6px;
+}
+
+.t-shirts-price {
+    display: flex;
+    align-items: center;
+    margin: 0 20px 20px 20px;
+}
+
+.t-shirts-1 {
+    margin: 20px 0 4px 8px;
+}
+
+.t-shirts-1:hover,
+.t-shirts-2:hover,
+.t-shirts-3:hover {
+    border: 3px solid #f3cf23;
+}
+
+.t-shirts a {
+    display: block;
+    margin: 12px 0 20px 15px;
+    font-size: 14px;
+    line-height: 18px;
+    text-decoration: underline;
+    color: #0193e9;
+    font-family: "Arial";
+    transition: .5s ease all;
+}
+
+.t-shirts a:hover {
+    color: #ebc821;
+}
+
+.t-shirts-2 {
+    margin: 0 0 4px 8px;
+}
+
+.t-shirts-3 {
+    margin-left: 8px;
+}
+
+.shop h2 {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 22px;
+    line-height: 22px;
+    color: #0193e9;
+    font-family: "Arial";
+    text-transform: uppercase;
+}
+
+.like {
+    display: block;
+    margin: 0 auto;
+}
+
+.shop-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 45px;
+}
+
+.design-part-1 {
+    padding: 12px;
+    height: 40px;
+    width: 40px;
+    background-color: #0193e9;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.consultant-part-1,
+.delivery-part-1 {
+    padding: 12px 10px 12px 15px;
+    width: 40px;
+    height: 40px;
+    background-color: #0193e9;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.shop i {
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 32px;
+    color: #676767;
+    font-style: italic;
+    font-family: "Georgia";
+}
+
+.shop h3 {
+    font-size: 14px;
+    line-height: 32px;
+    color: #676767;
+    font-weight: bold;
+    font-family: "Arial";
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.shop p {
+    width: 217px;
+    height: 53px;
+    font-size: 12px;
+    line-height: 18px;
+    color: #676767;
+    font-family: "Arial";
+    margin-top: 0;
+}
+
+.shop a {
+    font-size: 12px;
+    line-height: 14px;
+    text-decoration: underline;
+    color: #0193e9;
+    font-family: "Arial";
+    transition: 1s ease all;
+}
+
+.shop a:hover {
+    color: #ebc821;
+}
+
+.design,
+.consultant,
+.delivery {
+    display: flex;
+}
+
+.designer-t-shirts h2 {
+    font-size: 22px;
+    line-height: 32px;
+    color: #0193e9;
+    font-weight: bold;
+    font-family: "Arial";
+    text-align: center;
+    margin-bottom: 8px;
+
+}
+
+.designer-t-shirts hr {
+    width: 60px;
+    margin: 0 auto;
+    height: 2px;
+    background-color: black;
+}
+
+.section {
+    display: block;
+    font-size: 12px;
+    letter-spacing: 0px;
+    line-height: 32px;
+    text-decoration: underline;
+    color: #0193e9;
+    font-style: italic;
+    font-family: "Georgia";
+    text-align: center;
+    transition: 1s ease all;
+    margin-bottom: 24px;
+}
+
+.section:hover {
+    color: #ebc821;
+}
+
+.futbolka-2::after {
+    content: '-10%';
+    position: absolute;
+    background-color: #f4e23b;
+    top: 10px;
+    left: 60%;
+    padding: 15px 7px;
+    border-radius: 50%;
+    font-size: 14px;
+    color: #0087e3;
+    font-weight: bold;
+    font-family: "Arial";
+    text-align: left;
+    border: 1px solid #ffffff;
+}
+
+figure img {
+    width: 100%;
+}
+
+.futbolka-1 {
+    position: relative;
+    width: 230px;
+    margin-bottom: 20px;
+    transition: 1s ease;
+}
+
+.delivery-a {
+    display: block;
+    opacity: 0;
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 0px;
+    line-height: 32px;
+    text-decoration: underline;
+    color: #0193e9;
+    font-style: italic;
+    font-family: "Georgia";
+    padding-top: 20px;
+}
+
+.futbolka-1:hover .delivery-a {
+    opacity: 1;
+}
+
+.futbolka-1:hover::before {
+    content: '';
+    padding-top: 320px;
+    padding-bottom: 10px;
+    position: absolute;
+    border: 3px solid #0087e4;
+    width: 230px;
+    padding-bottom: 40px;
+}
+
+.blok-1,
+.blok-2 {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.futbolka {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.futbolka h3 {
+    font-size: 14px;
+    line-height: 18px;
+    color: #0193e9;
+    font-weight: bold;
+    font-family: "Arial";
+    text-align: center;
+    margin: 0;
+}
+
+.futbolka p {
+    font-size: 14px;
+    line-height: 18px;
+    color: #322a2a;
+    font-weight: bold;
+    font-family: "Arial";
+    text-align: center;
+    margin-top: 0;
+}
+
+.futbolka b {
+    display: block;
+    font-size: 18px;
+    color: #676767;
+    font-family: "Arial";
+    text-align: center;
+}
+
+.basket {
+    display: flex;
+    border-radius: 13px;
+    background-color: #fae851;
+    padding: 5px 0;
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 20px;
+    transition: 1s ease all;
+}
+
+.basket:hover {
+    background-color: #0193e9;
+}
+
+.basket img {
+    width: 20px;
+    margin-right: 10px;
+    margin-left: 8px;
+}
+
+.basket a {
+    font-size: 14px;
+    color: #4e443b;
+    font-weight: bold;
+    font-family: "Arial";
+    text-decoration: none;
+    width: 230px;
+}
+
+.blok-arrow-r-1 {
+    display: none;
+    position: relative;
+    top: 100px;
+    margin-right: -70px;
+    z-index: 1;
+    position: relative;
+    background-color: #ebc821;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.blok-arrow-r-2 {
+    display: block;
+    position: relative;
+    top: 100px;
+    margin-right: -70px;
+    z-index: 1;
+    position: relative;
+    background-color: #ebc821;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.blok-arrow-r-2::before,
+.blok-arrow-r-1:before {
+    content: '';
+    display: block;
+    position: absolute;
+    border: 4px solid #0087e3;
+    border-right: none;
+    border-top: none;
+    width: 10px;
+    height: 10px;
+    top: 30%;
+    left: 35%;
+    transform: rotate(45deg);
+}
+
+
+.blok-arrow-l-2,
+.blok-arrow-l-1 {
+    /* display: none; */
+    position: relative;
+    background-color: #ebc821;
+    border-radius: 50%;
+    margin-left: -70px;
+    width: 40px;
+    height: 40px;
+    top: 100px;
+}
+
+.blok-arrow-l-2::before,
+.blok-arrow-l-1:before {
+    content: '';
+    display: block;
+    position: absolute;
+    border: 4px solid #0087e3;
+    border-left: none;
+    border-bottom: none;
+    width: 10px;
+    height: 10px;
+    top: 30%;
+    left: 30%;
+    transform: rotate(45deg);
+}
+
+.tovaru {
+    text-decoration: none;
+    position: relative;
+    font-size: 22px;
+    letter-spacing: 0px;
+    line-height: 32px;
+    color: #0193e9;
+    font-style: italic;
+    font-family: "Georgia";
+    margin-bottom: 70px;
+    border-bottom: 3px dotted #0193e9;
+    transition: 1s ease all;
+    margin: 0 auto;
+}
+
+.tovaru:hover {
+    color: #ebc821;
+    border-bottom: 3px dotted #ebc821;
+
+}
+
+.new-season h2 {
+    margin-top: 40px;
+    font-size: 45px;
+    line-height: 113px;
+    color: #0193e9;
+    font-weight: bold;
+    font-family: "Arial";
+    text-align: center;
+    margin-bottom: 0;
+}
+
+
+
+.new-season-bottom-line,
+.new-season-top-line {
+    height: 1px;
+    background-color: #b2def8;
+    margin: 20px -280px;
+}
+
+.futbolka-line {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px -250px 15px;
+}
+
+.futbolka-line img {
+    width: 90px;
+}
+
+.futbolka-line p {
+    font-size: 16px;
+    text-align: center;
+    color: #676767;
+    font-weight: bold;
+    font-family: "Arial";
+}
+
+.basket-2 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border-radius: 13px;
+    background-color: #fae851;
+    padding: 4px 4px 4px 4px;
+    width: 75px;
+    transition: 1s ease all;
+}
+
+.basket-2:hover {
+    background-color: #0193e9;
+}
+
+.basket-2 img {
+    width: 20px;
+    height: 20px;
+    margin-right: 4px;
+}
+
+.basket-2 a {
+    font-size: 14px;
+    color: #4e443b;
+    font-weight: bold;
+    font-family: "Arial";
+    text-decoration: none;
+}
+
+.bring-another-discount {
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.bring-another-discount h2 {
+    font-size: 40px;
+    line-height: 40px;
+    color: #0193e9;
+    font-weight: bold;
+    font-family: "Arial";
+    max-width: 480px;
+    margin: 0;
+}
+
+.bring-another-discount p {
+    font-size: 103px;
+    line-height: 103px;
+    color: #f2de36;
+    font-weight: bold;
+    font-family: "Arial";
+    margin: 0;
+}
+
+.bring-another-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-bottom: 67px;
+}
+
+.news {
+    width: 45%;
+}
+
+.news-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 4px;
+}
+
+.news-title h3 {
+    font-size: 18px;
+    line-height: 18px;
+    color: #0193e9;
+    font-weight: bold;
+    font-family: "Arial";
+    margin: 0;
+}
+
+.news-title a {
+    font-size: 12px;
+    letter-spacing: 0px;
+    line-height: 32px;
+    text-decoration: underline;
+    color: #0193e9;
+    font-style: italic;
+    font-family: "Georgia";
+    transition: 1s ease all;
+}
+
+.news-title a:hover {
+    color: #ebc821;
+}
+
+.news-title-line,
+.reviews-line {
+    padding: 0 -4px;
+    height: 1px;
+    background-color: #b2def8;
+    margin: 0;
+}
+
+.comments p {
+    font-size: 12px;
+    line-height: 22px;
+    color: #676767;
+    font-family: "Arial";
+    margin: 20px 0 10px 0;
+}
+
+.comments h4 {
+    font-size: 14px;
+    line-height: 22px;
+    color: #0085e3;
+    font-weight: bold;
+    font-family: "Arial";
+    margin: 0;
+}
+
+.text {
+    margin: 11px 0 30px 0;
+    font-size: 12px;
+    line-height: 22px;
+    color: #676767;
+    font-family: "Arial";
+
+}
+
+.reviews {
+    width: 45%;
+}
+
+.reviews-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 4px;
+}
+
+.reviews-title h2 {
+    font-size: 18px;
+    line-height: 18px;
+    color: #0193e9;
+    font-weight: bold;
+    font-family: "Arial";
+    margin: 0;
+}
+
+.reviews-title a {
+    margin: 0;
+    font-size: 12px;
+    letter-spacing: 0px;
+    line-height: 32px;
+    text-decoration: underline;
+    color: #0193e9;
+    font-style: italic;
+    font-family: "Georgia";
+    transition: 1s ease all;
+}
+
+.reviews-title a:hover {
+    color: #ebc821;
+}
+
+.oksana {
+    display: flex;
+    align-items: center;
+}
+
+.oksana img {
+    margin-right: 10px;
+}
+
+.city {
+    margin: 0;
+    margin: 30px 0 10px 0;
+    font-size: 12px;
+    line-height: 6px;
+    color: #676767;
+    font-family: "Arial";
+}
+
+.oksana h4 {
+    margin: 0;
+    font-size: 14px;
+    line-height: 16px;
+    color: #2e353a;
+    font-weight: bold;
+    font-family: "Arial";
+}
+
+.text-1 {
+    margin-top: 20px;
+    font-size: 12px;
+    line-height: 22px;
+    color: #676767;
+    font-family: "Arial";
+}
+
+.background {
+    display: block;
+    height: 138px;
+    background-image: url(/img/вишиванка.png);
+    transform: rotate(180deg);
+    margin: 0 -280px;
+}
+
+.footer-line {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-line a {
+    transition: 1s ease all;
+}
+
+.footer-line a:hover {
+    color: #ebc821;
+}
+
+.footer-line p {
+    font-size: 14px;
+    line-height: 38px;
+    color: #676767;
+    font-weight: bold;
+    font-family: "Arial";
+    margin: 0;
+    margin-top: 44px;
+}
+
+.merchandise ul,
+.service ul,
+.footer-contacts ul {
+    list-style: none;
+    padding: 0;
+}
+
+.merchandise a,
+.service a,
+.footer-contacts a {
+    font-size: 12px;
+    line-height: 26px;
+    text-decoration: underline;
+    color: #0085e3;
+    font-family: "Arial";
+}
+
+.footer-social-network {
+    display: flex;
+}
+
+.footer-bk {
+    margin: 32px 6px 0 0;
+    padding: 7px 10px;
+    border-radius: 50%;
+    border: 1px solid #fbee67;
+    transition: 1s ease all;
+}
+
+.footer-bk:hover,
+.footer-ok:hover,
+.footer-facebook:hover {
+    border: 1px solid #0193e9;
+}
+
+.bk img,
+.ok img,
+.facebook img {
+    height: 15px;
+}
+
+
+.footer-ok {
+    margin: 32px 6px 0 0;
+    padding: 7px 12px;
+    border-radius: 50%;
+    border: 1px solid#fbee67;
+    transition: 1s ease all;
+}
+
+.footer-facebook {
+    margin: 32px 6px 0 0;
+    padding: 7px 13px;
+    border-radius: 50%;
+    border: 1px solid #fbee67;
+    transition: 1s ease all;
+}
+
+.contact-us-1,
+.contact-us-2 {
+    display: flex;
+}
+
+.footer-skype {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    margin-top: 15px;
+    position: relative;
+}
+
+
+.footer-skype ::before{
+    content: url(/img/Layer\ 1138.png);
+    position: absolute;
+    left: 0;
+    top: 4px;
+}
+
+.footer-phone-flower::before{
+    content: url(/img/Layer\ 1115.png);
+    position: absolute;
+    left: 0;
+    top: 4px;
+    z-index: -1;
+}
+
+.footer-phone {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.footer-phone::before{
+    content: url(/img/Трубка\ телефону.png);
+    position: absolute;
+    left: 0;
+    top: 4px;
+    z-index: -1;
+}
+
+.footer-phone-flower {
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    margin-bottom: 25px;
+    margin-top: 15px;
+    position: relative;
+}
+
+.doggy {
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+    position: relative;
+}
+
+.doggy::before{
+    content: url(/img/@.png);
+    position: absolute;
+    left: 0;
+    top: 4px;
+    z-index: -1;
+}
+
+.footer-skype img,
+.footer-phone-flower img,
+.footer-phone img,
+.doggy img {
+    margin-right: 10px;
+}
+
+.footer-skype a,
+.footer-phone-flower a,
+.footer-phone a,
+.doggy a {
+    font-size: 12px;
+    line-height: 22px;
+    text-decoration: underline;
+    color: #0085e3;
+    font-family: "Arial";
+    padding-left: 20px;
+}
+
+.fooret-telefon ul {
+    margin-top: 44px;
+    list-style: none;
+}
+
+.fooret-telefon a {
+    font-size: 20px;
+    line-height: 38px;
+    color: #676767;
+    font-weight: bold;
+    font-family: "Arial";
+    text-decoration: none;
+}
+
+.footer-text p {
+    display: block;
+    margin-top: 44px;
+    margin-bottom: 30px;
+    width: 100%;
+    text-align: center;
+    font-size: 11px;
+    line-height: 16px;
+    color: #818181;
+    font-family: "Arial";
+}
+
+.footer-bg {
+    background-color: #0085e3;
+    margin: 0 -280px;
+    padding: 10px 0;
+}
+
+.footer-bg p {
+    text-align: center;
+    font-size: 12px;
+    line-height: 16px;
+    color: #ffffff;
+    font-family: "Arial";
+}
