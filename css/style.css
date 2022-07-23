@@ -299,7 +299,7 @@ body {
 }
 
 .my-basket::before{
-    content: url(img/Shape\ 171\ copy\ 12.png);
+    content: url(..img/Shape\ 171\ copy\ 12.png);
     position: absolute;
     left: 0px;
     top: -2px;
