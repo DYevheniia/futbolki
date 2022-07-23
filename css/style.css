@@ -58,13 +58,13 @@ body {
 }
 
 .create::before {
-    content: url(/img/Layer\ 1149.png);
+    content: url(..img/Layer\ 1149.png);
     position: absolute;
     left: 10px;
 }
 
 .sell::before {
-    content: url(/img/Layer\ 1150.png);
+    content: url(..img/Layer\ 1150.png);
     position: absolute;
     left: 10px;
 }
@@ -152,7 +152,7 @@ body {
 }
 
 .skype::before {
-    content: url(/img/Layer\ 1138.png);
+    content: url(..img/Layer\ 1138.png);
     position: absolute;
     top: 4px;
     left: 5px;
@@ -160,7 +160,7 @@ body {
 }
 
 .contact::before {
-    content: url(/img/Layer\ 1115.png);
+    content: url(..img/Layer\ 1115.png);
     position: absolute;
     top: 4px;
     left: 5px;
@@ -169,7 +169,7 @@ body {
 
 
 .email::before {
-    content: url(/img/@.png);
+    content: url(..img/@.png);
     position: absolute;
     top: 4px;
     left: 5px;
@@ -299,7 +299,7 @@ body {
 }
 
 .my-basket::before{
-    content: url(/img/Shape\ 171\ copy\ 12.png);
+    content: url(img/Shape\ 171\ copy\ 12.png);
     position: absolute;
     left: 0px;
     top: -2px;
@@ -313,7 +313,7 @@ body {
 }
 
 .my-wishes::before{
-    content: url(/img/серце.png);
+    content: url(..img/серце.png);
     position: absolute;
     left: 40px;
     top: -2px;
@@ -401,7 +401,7 @@ body {
 
 .main-bg {
     display: block;
-    background-image: url(/img/вишиванка.png);
+    background-image: url(..img/вишиванка.png);
     height: 138px;
     margin-left: -280px;
     margin-right: -280px;
@@ -421,7 +421,7 @@ body {
     display: flex;
     align-items: center;
     width: 700px;
-    background-image: url(/img/18019_shutterstock_119858314.png);
+    background-image: url(..img/18019_shutterstock_119858314.png);
     background-repeat: no-repeat;
     background-position: 293px 18px;
     height: 320px;
@@ -1168,7 +1168,7 @@ figure img {
 .background {
     display: block;
     height: 138px;
-    background-image: url(/img/вишиванка.png);
+    background-image: url(..img/вишиванка.png);
     transform: rotate(180deg);
     margin: 0 -280px;
 }
@@ -1270,14 +1270,14 @@ figure img {
 
 
 .footer-skype ::before{
-    content: url(/img/Layer\ 1138.png);
+    content: url(..img/Layer\ 1138.png);
     position: absolute;
     left: 0;
     top: 4px;
 }
 
 .footer-phone-flower::before{
-    content: url(/img/Layer\ 1115.png);
+    content: url(..img/Layer\ 1115.png);
     position: absolute;
     left: 0;
     top: 4px;
@@ -1291,7 +1291,7 @@ figure img {
 }
 
 .footer-phone::before{
-    content: url(/img/Трубка\ телефону.png);
+    content: url(..img/Трубка\ телефону.png);
     position: absolute;
     left: 0;
     top: 4px;
@@ -1315,7 +1315,7 @@ figure img {
 }
 
 .doggy::before{
-    content: url(/img/@.png);
+    content: url(..img/@.png);
     position: absolute;
     left: 0;
     top: 4px;
